@@ -57,6 +57,7 @@ body {
 
 
 
+
 /* section 1 */
 
 .main__container {
@@ -139,9 +140,9 @@ body {
     width: 1111px;
     height: 524.55px;
     margin: 0 auto;
-    background-image: url(../imgs/Group\ 14.png);
+    background-image: url(../imgs/Group\ 13.png);
     background-repeat: no-repeat;
-    padding-top: 390.55px;
+    padding-top: 126.55px;
 }
 
 .main__nav-list {
@@ -153,6 +154,13 @@ body {
     list-style-type: none;
 }
 
+.nav-item__img{
+    margin-bottom: 71.55px;
+    transition: transform .4s;
+}
+.nav-item__img:hover{
+    transform: scale(1.4);
+}
 .main__nav-link {
     text-decoration: none;
 }
@@ -167,6 +175,11 @@ body {
     margin-bottom: 24px;
 }
 
+.main__paragraph-second:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
 .main__text-second {
     width: 255px;
     font-weight: 400;
@@ -176,7 +189,10 @@ body {
     color: #333D4B;
 }
 
-
+.main__text-second:hover{
+    text-decoration: underline #b2b2b2;
+    color: rgb(92, 90, 90);
+}
 
 
 
@@ -237,10 +253,15 @@ body {
     text-align: center;
 }
 
-.list__item img {
+.item__img {
     margin-bottom: 56px;
+    transition: transform .4s;
+
 }
 
+.item__img:hover{
+    transform: scale(2.3);
+}
 .item-shipping img {
     padding-top: 11px;
     margin-bottom: 67px;
