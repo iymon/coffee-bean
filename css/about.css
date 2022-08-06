@@ -237,9 +237,10 @@ body {
     transition: transform .4s;
 }
 
-.nav__item-links img:hover{
+.nav__item-links img:hover {
     transform: scale(1.8);
 }
+
 .item-link__paragraph {
     font-weight: 900;
     font-size: 32px;
