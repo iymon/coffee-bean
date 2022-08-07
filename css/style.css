@@ -73,7 +73,7 @@ body {
     margin: 0 auto;
     padding: 117px 85px;
 
-    background-image: url(../imgs/traditional-coffee-cup-heart-shaped-steam-rustic-wood-70228609.jpg);
+    background-image: url(../imgs/70228609.jpg);
     background-repeat: round;
     border-radius: 10px;
 }
@@ -754,6 +754,7 @@ body {
     .header__nav-list {
         display: none;
     }
+    
 }
 
 
@@ -771,6 +772,11 @@ body {
         padding: 100px 24px;
         background-image: url(../imgs/hero-bg-mob.png);
 
+    }
+
+    .main__content:hover {
+        background-image: url(../imgs/traditional-coffee-cup-heart-shaped-steam-rustic-wood-70228609.jpg);
+    
     }
 
     .main__paragraph-first {
